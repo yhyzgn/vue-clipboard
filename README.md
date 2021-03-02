@@ -1,6 +1,6 @@
 # `vue-ls-plus`
 
-![npm](https://img.shields.io/npm/v/vue-ls-plus?color=orange&label=vue-ls-plus&style=flat-square)
+![npm](https://img.shields.io/npm/v/vue-easy-clipboard?color=orange&label=vue-easy-clipboard&style=flat-square)
 
 > `localStorage with expiry time.`
 

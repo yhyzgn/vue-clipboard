@@ -1,5 +1,5 @@
 {
-  "name": "@vue/clipboard",
+  "name": "vue-easy-clipboard",
   "version": "1.0.0",
   "description": "Copying text to the clipboard.",
   "main": "src/index.ts",
@@ -14,15 +14,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yhyzgn/vue-clipboard"
+    "url": "https://github.com/yhyzgn/vue-easy-clipboard.git"
   },
   "dependencies": {
     "clipboard": "^2.0.6",
     "vue": "^3.0.5"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-vue": "^1.1.4",
-    "@vue/compiler-sfc": "^3.0.5",
-    "vite": "^2.0.1"
   }
 }
