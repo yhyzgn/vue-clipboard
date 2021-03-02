@@ -1,4 +1,4 @@
-# `vue-ls-plus`
+# `vue-easy-clipboard`
 
 ![npm](https://img.shields.io/npm/v/vue-easy-clipboard?color=orange&label=vue-easy-clipboard&style=flat-square)
 
@@ -9,7 +9,7 @@
 import {createApp} from 'vue'
 import App from './App.vue'
 
-import {VueClipboard} from '@vue/clipboard'
+import {VueClipboard} from 'vue-easy-clipboard'
 
 const app = createApp(App)
   .use(VueClipboard)
@@ -80,7 +80,7 @@ export default {
 ## 3、单独使用
 
 ```js
-import {copyText} from "@vue/clipboard"
+import {copyText} from "vue-easy-clipboard"
 
 copyText('需要复制的内容').then(() => {
     this.$success('内容已复制到剪贴板')
